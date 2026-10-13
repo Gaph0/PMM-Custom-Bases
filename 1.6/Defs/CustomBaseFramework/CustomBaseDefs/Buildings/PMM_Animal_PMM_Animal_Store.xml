@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Animal_Store</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Animal</li>
+    </categories>
+    <placement>
+      <atWall>Forbidden</atWall>
+    </placement>
+
+    <legend>
+      <li><symbol>W</symbol><roof>RoofConstructed</roof></li>
+      <li><symbol>D</symbol><thing>VFEM2_CobblestoneWall_ChunkGranite</thing></li>
+      <li MayRequire="VanillaExpanded.VFEArchitect"><symbol>T</symbol><terrain>VFEArch_PlayerPackedDirt</terrain></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>B</symbol><thing>DankPyon_RusticDoor</thing><stuff>WoodLog</stuff></li>
+      <li MayRequire="EEG.MOxASF,DankPyon.Medieval.Overhaul"><symbol>C</symbol><thing>DankPyon_Log1x2Empty</thing><stuff>DankPyon_RawWood</stuff><rotation>South</rotation></li>
+      <li MayRequire="EEG.MOxASF"><symbol>F</symbol><thing>DankPyon_Timber1x2Empty</thing><stuff>WoodLog</stuff><rotation>South</rotation></li>
+      <li MayRequire="reel.expanded.storage"><symbol>P</symbol><thing>ReelNewIndustrialShelf</thing><stuff>WoodLog</stuff><rotation>West</rotation></li>
+      <li MayRequire="Adaptive.PrimitiveStorage,DankPyon.Medieval.Overhaul"><symbol>R</symbol><thing>ASF_WeaponRack</thing><stuff>DankPyon_Linen</stuff><rotation>West</rotation></li>
+      <li MayRequire="Adaptive.PrimitiveStorage,DankPyon.Medieval.Overhaul"><symbol>L</symbol><thing>ASF_WeaponRack</thing><stuff>DankPyon_Linen</stuff><rotation>East</rotation></li>
+      <li MayRequire="EEG.MOxASF"><symbol>S</symbol><thing>DankPyon_Ingot2x2Empty</thing><stuff>Steel</stuff><rotation>South</rotation></li>
+      <li MayRequire="EEG.MOxASF"><symbol>G</symbol><thing>DankPyon_Bricks2x2Empty</thing><stuff>BlocksGranite</stuff><rotation>South</rotation></li>
+      <li><symbol>H</symbol><anchor>Weapons</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_Weapon_Storage</objects><lootTable>PMM_Animal_Weapons</lootTable><chance>0.81</chance></li>
+      <li><symbol>K</symbol><anchor>Weapons2</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_Weapon_Storage</objects><lootTable>PMM_Animal_Weapons</lootTable><chance>0.64</chance></li>
+      <li><symbol>M</symbol><anchor>Woodloot</anchor><anchorKind>Fill</anchorKind><objects>PMM_Logs</objects><lootTable>PMM_Log_Loot</lootTable></li>
+      <li><symbol>N</symbol><anchor>Plankloot</anchor><anchorKind>Fill</anchorKind><objects>PMM_Storage_plank</objects><lootTable>CBF_Vanilla_Goods_Wood</lootTable><chance>0.61</chance></li>
+      <li><symbol>Q</symbol><anchor>stoneloot</anchor><anchorKind>Fill</anchorKind><objects>PMM_Stone_storage</objects><lootTable>CBF_MO_Goods_Stone</lootTable></li>
+      <li><symbol>U</symbol><anchor>ingots</anchor><anchorKind>Fill</anchorKind><objects>PMM_Ingot_storage</objects><lootTable>CBF_MO_Goods_Ingots</lootTable><chance>0.34</chance></li>
+      <li><symbol>V</symbol><anchor>Loot</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_VFEM2_Loot_Minimal</lootTable><chance>0.37</chance></li>
+      <li><symbol>X</symbol><anchor>Loot2</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_Vanilla_Loot_Farmstead</lootTable><chance>0.7</chance></li>
+      <li><symbol>Y</symbol><anchor>Loot3</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_VFEM2_Loot_Hut</lootTable><chance>0.37</chance></li>
+      <li><symbol>A</symbol><anchor>Loot4</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_VFEM2_Loot_Minimal</lootTable><chance>0.37</chance></li>
+      <li><symbol>E</symbol><anchor>Loot5</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_Vanilla_Loot_Farmstead</lootTable><chance>0.7</chance></li>
+      <li><symbol>I</symbol><anchor>Loot6</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_VFEM2_Loot_Hut</lootTable><chance>0.37</chance></li>
+      <li><symbol>J</symbol><anchor>Loot7</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_VFEM2_Loot_Minimal</lootTable><chance>0.37</chance></li>
+      <li><symbol>O</symbol><anchor>Loot8</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_Vanilla_Loot_Farmstead</lootTable><chance>0.7</chance></li>
+      <li><symbol>Z</symbol><anchor>Loot9</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_VFEM2_Loot_Hut</lootTable><chance>0.37</chance></li>
+    </legend>
+
+    <mask>
+      <li>..#######..</li>
+      <li>.#########.</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>.#########.</li>
+      <li>..#######..</li>
+    </mask>
+
+    <terrain>
+      <li>.....T.....</li>
+      <li>...TTTTT...</li>
+      <li>..TTTTTTT..</li>
+      <li>.TTTTTTTTT.</li>
+      <li>.TTTTTTTTT.</li>
+      <li>TTTTTTTTTTT</li>
+      <li>.TTTTTTTTT.</li>
+      <li>.TTTTTTTTT.</li>
+      <li>..TTTTTTT..</li>
+      <li>...TTTTT...</li>
+      <li>.....T.....</li>
+    </terrain>
+
+    <things>
+      <li>..DDDBDDD..</li>
+      <li>.DDC..F.DD.</li>
+      <li>DD.......DD</li>
+      <li>D.........D</li>
+      <li>DP.P.P.P.PD</li>
+      <li>B.........B</li>
+      <li>D.........D</li>
+      <li>DP.PR.LP.PD</li>
+      <li>DD.......DD</li>
+      <li>.DDS..G.DD.</li>
+      <li>..DDDBDDD..</li>
+    </things>
+
+    <roof>
+      <li>..WWWWWWW..</li>
+      <li>.WWWWWWWWW.</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>.WWWWWWWWW.</li>
+      <li>..WWWWWWW..</li>
+    </roof>
+
+    <anchors>
+      <li>...........</li>
+      <li>...MM.NN...</li>
+      <li>...........</li>
+      <li>.A.X.J.V.O.</li>
+      <li>.A.X.J.V.O.</li>
+      <li>...........</li>
+      <li>.E.ZK.HI.Y.</li>
+      <li>.E.ZK.HI.Y.</li>
+      <li>...UU.QQ...</li>
+      <li>...UU.QQ...</li>
+      <li>...........</li>
+    </anchors>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

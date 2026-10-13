@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Animal_Goat</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Animal</li>
+    </categories>
+
+    <legend>
+      <li><symbol>W</symbol><roof>RoofConstructed</roof></li>
+      <li><symbol>D</symbol><thing>VFEM2_CobblestoneWall_ChunkSandstone</thing></li>
+      <li><symbol>T</symbol><thing>AnimalSleepingSpot</thing></li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey"><symbol>B</symbol><thing>Plant_YellowGrass</thing></li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey"><symbol>C</symbol><thing>Plant_YellowTallGrass</thing></li>
+      <li><symbol>F</symbol><thing>Fence</thing><stuff>WoodLog</stuff></li>
+      <li><symbol>P</symbol><thing>FenceGate</thing><stuff>WoodLog</stuff></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>R</symbol><thing>AnimalFlap</thing><stuff>DankPyon_Linen</stuff></li>
+      <li><symbol>L</symbol><thing>PenMarker</thing><stuff>WoodLog</stuff></li>
+      <li><symbol>S</symbol><anchor>Pawn</anchor><anchorKind>Spawn</anchorKind><pawnList>PMM_Animal_Goat</pawnList><pawnCount>1~6</pawnCount></li>
+    </legend>
+
+    <mask>
+      <li>...###########...</li>
+      <li>...###########...</li>
+      <li>...###########...</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+      <li>#################</li>
+    </mask>
+
+    <things>
+      <li>...DDDDDDDDDDD...</li>
+      <li>...DTTT...TTTD...</li>
+      <li>...D.........D...</li>
+      <li>FFPDRDDDDDDDRDPFF</li>
+      <li>F...............F</li>
+      <li>F...............F</li>
+      <li>F...............F</li>
+      <li>F...............F</li>
+      <li>F...............F</li>
+      <li>F...............F</li>
+      <li>F...............F</li>
+      <li>F...............F</li>
+      <li>F......L........F</li>
+      <li>F...............F</li>
+      <li>F...............F</li>
+      <li>F...............F</li>
+      <li>F...............F</li>
+      <li>F...............F</li>
+      <li>FFFFFFFFFFFFFFFFF</li>
+    </things>
+
+    <plants>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.....B.C.B.BC....</li>
+      <li>.................</li>
+      <li>...CC..B...CC....</li>
+      <li>..CCC...B....B...</li>
+      <li>....CC.C.CCB.BB..</li>
+      <li>..B.BC.....C..B..</li>
+      <li>..CB.CC..CC...B..</li>
+      <li>...BB.C.B.B.CC...</li>
+      <li>....B.B.B...B....</li>
+      <li>...C...B.B...B...</li>
+      <li>....C.B....C.....</li>
+      <li>.................</li>
+      <li>.CBCB..CCCC.CCB..</li>
+      <li>.CCBBCBCBB.CBCC..</li>
+      <li>.CBCCB..CCCC.BC..</li>
+      <li>.CCB.B.CB.CCB....</li>
+      <li>.................</li>
+    </plants>
+
+    <roof>
+      <li>...WWWWWWWWWWW...</li>
+      <li>...WWWWWWWWWWW...</li>
+      <li>...WWWWWWWWWWW...</li>
+      <li>...WWWWWWWWWWW...</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+    </roof>
+
+    <anchors>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>........S........</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+      <li>.................</li>
+    </anchors>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

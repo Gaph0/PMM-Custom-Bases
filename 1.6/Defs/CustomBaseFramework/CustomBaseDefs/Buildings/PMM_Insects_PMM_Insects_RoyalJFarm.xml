@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef MayRequire="OskarPotocki.VFE.Insectoid2">
+    <defName>PMM_Insect_RoyalJFarm</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Insects</li>
+    </categories>
+    <placement>
+      <factions>
+        <li>Insect</li>
+        <li>PMM_InsectorHive</li>
+        <li>PMM_InsectorSwarm</li>
+      </factions>
+    </placement>
+
+    <legend>
+      <li><symbol>W</symbol><terrain>VFEI2_RoyalJellyFloor</terrain></li>
+      <li><symbol>D</symbol><thing>VFEI2_RoyalJellyWall</thing></li>
+      <li><symbol>T</symbol><thing>VFEI2_JellyMorpher</thing></li>
+      <li><symbol>B</symbol><thing>VFEI2_RoyalJellyspreader</thing></li>
+      <li><symbol>C</symbol><thing>VFEI2_HiveDoor</thing></li>
+    </legend>
+
+    <mask>
+      <li>..#####..</li>
+      <li>.#######.</li>
+      <li>#########</li>
+      <li>#########</li>
+      <li>#########</li>
+      <li>#########</li>
+      <li>#########</li>
+      <li>.#######.</li>
+      <li>..#####..</li>
+    </mask>
+
+    <terrain>
+      <li>..WWWWW..</li>
+      <li>.WWWWWWW.</li>
+      <li>WWWWWWWWW</li>
+      <li>WWWWWWWWW</li>
+      <li>WWWWWWWWW</li>
+      <li>WWWWWWWWW</li>
+      <li>WWWWWWWWW</li>
+      <li>.WWWWWWW.</li>
+      <li>..WWWWW..</li>
+    </terrain>
+
+    <things>
+      <li>..DDDDD..</li>
+      <li>.DD...DD.</li>
+      <li>DD.....DD</li>
+      <li>D.T..T..D</li>
+      <li>D...B...D</li>
+      <li>D.......D</li>
+      <li>DDT..T.DD</li>
+      <li>.DD...DD.</li>
+      <li>..DDCDD..</li>
+    </things>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

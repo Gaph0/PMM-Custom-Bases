@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.MaterialListDef><defName>PMM_Animal_mats</defName><parent>CBF_MaterialList_Base</parent><roles><li><role>WALL</role><criticality>Critical</criticality><chain><li>VFEM2_CobblestoneWall_DankPyon_ChunkClay</li></chain><tagSearch>AnyWall</tagSearch></li><li><role>WALL_INNER</role><chain><li>Wall</li><li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_LogWall</li></chain><stuffChain><li>MapWood</li><li>MapStone</li><li>WoodLog</li></stuffChain><tagSearch>AnyWall</tagSearch></li><li><role>CONTAINER</role><chain><li MayRequire="reel.expanded.storage">ReelNewIndustrialShelf</li></chain><stuffChain><li>WoodLog</li><li>MapWood</li></stuffChain><tagSearch>AnyContainer</tagSearch></li><li><role>FURNITURE</role><chain><li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_LogChair</li></chain><stuffChain><li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawWood</li></stuffChain></li></roles></CustomBaseFramework.MaterialListDef>
+
+</Defs>

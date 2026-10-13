@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ThingDef ParentName="CBF_BeutebehaelterBase">
+    <defName>CBF_Container</defName>
+    <label>PMM__Animal_Weaponrack</label>
+    <description>A rack of neolithic weapons.</description>
+    <size>(2,1)</size>
+    <graphicData>
+      <texPath>WeaponRack/WeaponRack</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.15,1.15)</drawSize>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>10</costStuffCount>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+    </statBases>
+
+    <modExtensions>
+      <li Class="CustomBaseFramework.LootContainerExtension">
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+</Defs>

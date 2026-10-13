@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>PMM Custom Bases</name>
+  <author>Gapho</author>
+  <packageId>Gapho.PMMCustomBases</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>EvilEyeGuy.CustomBaseFramework</packageId>
+      <displayName>Custom Base Framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3813689040</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>VanillaExpanded.VFEArchitect</packageId>
+      <displayName>Vanilla Furniture Expanded - Architect</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2608762624</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>DankPyon.Medieval.Overhaul</packageId>
+      <displayName>Medieval Overhaul</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3219596926</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VFE.Tribals</packageId>
+      <displayName>Vanilla Factions Expanded - Tribals</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3079786283</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>reel.expanded.storage</packageId>
+      <displayName>Reel's Expanded Storage</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3237638097</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Adaptive.PrimitiveStorage</packageId>
+      <displayName>Adaptive Primitive Storage</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3400037215</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ferny.ProgressionAmmunition</packageId>
+      <displayName>Progression: Ammunition</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3798845290</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ferny.progressionagriculture</packageId>
+      <displayName>Progression: Agriculture</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3418017359</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>VanillaExpanded.VFECore</packageId>
+      <displayName>Vanilla Furniture Expanded</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1718190143</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>EEG.MOxASF</packageId>
+      <displayName>Medieval Overhaul: Adaptive Storage</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3425601715</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VFE.Insectoid2</packageId>
+      <displayName>Vanilla Factions Expanded - Insectoids 2</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3309003431</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Sarg.AlphaMemes</packageId>
+      <displayName>Alpha Memes</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2661356814</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VFE.Medieval2</packageId>
+      <displayName>Vanilla Factions Expanded - Medieval 2</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3444347874</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>EvilEyeGuy.CustomBaseFramework</li>
+    <li>VanillaExpanded.VFEArchitect</li>
+    <li>DankPyon.Medieval.Overhaul</li>
+    <li>OskarPotocki.VFE.Tribals</li>
+    <li>reel.expanded.storage</li>
+    <li>Adaptive.PrimitiveStorage</li>
+    <li>ferny.ProgressionAmmunition</li>
+    <li>ferny.progressionagriculture</li>
+    <li>VanillaExpanded.VFECore</li>
+    <li>EEG.MOxASF</li>
+    <li>OskarPotocki.VFE.Insectoid2</li>
+    <li>Sarg.AlphaMemes</li>
+    <li>OskarPotocki.VFE.Medieval2</li>
+  </loadAfter>
+  <description>Content for Custom Base Framework.</description>
+</ModMetaData>

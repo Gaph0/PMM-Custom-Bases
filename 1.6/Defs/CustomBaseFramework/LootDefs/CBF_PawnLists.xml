@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+
+
+
+  <CustomBaseFramework.PawnListDef>
+    <defName>PMM_Animal_Chickens</defName>
+    <label>PMM_Animal_Chickens</label>
+    <role>Civilian</role>
+    <radius>4</radius>
+    <members>
+      <li><kind>Chicken</kind><weight>1</weight></li>
+    </members>
+  </CustomBaseFramework.PawnListDef>
+
+  <CustomBaseFramework.PawnListDef>
+    <defName>PMM_Animal_Goat</defName>
+    <label>PMM_Animal_Goat</label>
+    <role>Civilian</role>
+    <radius>4</radius>
+    <members>
+      <li><kind>Goat</kind><weight>1</weight></li>
+    </members>
+  </CustomBaseFramework.PawnListDef>
+
+  <CustomBaseFramework.PawnListDef>
+    <defName>PMM_Animals_Cow</defName>
+    <label>PMM_Animals_Cow</label>
+    <role>Civilian</role>
+    <radius>4</radius>
+    <members>
+      <li><kind>Cow</kind><weight>1</weight></li>
+    </members>
+  </CustomBaseFramework.PawnListDef>
+
+  <CustomBaseFramework.PawnListDef>
+    <defName>PMM_Insects_Capy</defName>
+    <label>PMM_Insects_Capy</label>
+    <role>Civilian</role>
+    <radius>4</radius>
+    <members>
+      <li><kind>Capybara</kind><weight>1</weight></li>
+    </members>
+  </CustomBaseFramework.PawnListDef>
+
+  <CustomBaseFramework.PawnListDef>
+    <defName>PMM_Insects_Cass</defName>
+    <label>PMM_Insects_Cass</label>
+    <role>Civilian</role>
+    <radius>4</radius>
+    <members>
+      <li><kind>Cassowary</kind><weight>1</weight></li>
+    </members>
+  </CustomBaseFramework.PawnListDef>
+
+  <CustomBaseFramework.PawnListDef>
+    <defName>PMM_Insects_Elk</defName>
+    <label>PMM_Insects_Elk</label>
+    <role>Civilian</role>
+    <radius>4</radius>
+    <members>
+      <li><kind>Elk</kind><weight>1</weight></li>
+    </members>
+  </CustomBaseFramework.PawnListDef>
+</Defs>

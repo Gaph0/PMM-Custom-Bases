@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+
+
+
+
+  <CustomBaseFramework.LootBuildingCategoryDef MayRequire="Adaptive.PrimitiveStorage">
+    <defName>PMM_Animal_Weapon_Storage</defName>
+    <members>
+        <li><thing>ASF_WeaponRack</thing><stays>true</stays></li>
+      </members>
+  </CustomBaseFramework.LootBuildingCategoryDef>
+
+  <CustomBaseFramework.LootBuildingCategoryDef MayRequire="DankPyon.Medieval.Overhaul">
+    <defName>PMM_Logs</defName>
+    <members>
+        <li><thing>DankPyon_WoodLogs1x2c</thing><stays>true</stays></li>
+      </members>
+  </CustomBaseFramework.LootBuildingCategoryDef>
+
+  <CustomBaseFramework.LootBuildingCategoryDef MayRequire="reel.expanded.storage">
+    <defName>CBF_Cat_Neu</defName>
+    <members>
+      <li>ReelNewIndustrialShelf</li>
+    </members>
+  </CustomBaseFramework.LootBuildingCategoryDef>
+
+  <CustomBaseFramework.LootBuildingCategoryDef MayRequire="reel.expanded.storage">
+    <defName>PMM_Animal_storage</defName>
+    <members>
+        <li><thing>ReelNewIndustrialShelf</thing><stays>true</stays></li>
+      </members>
+  </CustomBaseFramework.LootBuildingCategoryDef>
+
+  <CustomBaseFramework.LootBuildingCategoryDef MayRequire="EEG.MOxASF">
+    <defName>PMM_Ingot_storage</defName>
+    <members>
+        <li><thing>DankPyon_Ingot2x2Empty</thing><stays>true</stays></li>
+      </members>
+  </CustomBaseFramework.LootBuildingCategoryDef>
+
+  <CustomBaseFramework.LootBuildingCategoryDef MayRequire="EEG.MOxASF">
+    <defName>PMM_Stone_storage</defName>
+    <members>
+        <li><thing>DankPyon_Bricks2x2Empty</thing><stays>true</stays></li>
+      </members>
+  </CustomBaseFramework.LootBuildingCategoryDef>
+
+  <CustomBaseFramework.LootBuildingCategoryDef MayRequireAnyOf="EEG.MOxASF,DankPyon.Medieval.Overhaul">
+    <defName>PMM_Storage_plank</defName>
+    <members>
+        <li MayRequire="EEG.MOxASF"><thing>DankPyon_Timber1x2Empty</thing><stays>true</stays></li>
+        <li MayRequire="DankPyon.Medieval.Overhaul"><thing>DankPyon_Timber1x2c</thing><stays>true</stays></li>
+      </members>
+  </CustomBaseFramework.LootBuildingCategoryDef>
+</Defs>

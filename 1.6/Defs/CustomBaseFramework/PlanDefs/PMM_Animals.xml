@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.SettlementPlanDef MayRequire="VanillaExpanded.VFEArchitect,DankPyon.Medieval.Overhaul,OskarPotocki.VFE.Tribals,reel.expanded.storage,Adaptive.PrimitiveStorage,ferny.ProgressionAmmunition,ferny.progressionagriculture,VanillaExpanded.VFECore,EEG.MOxASF,Ludeon.RimWorld.Odyssey">
+    <defName>PMM_Animals</defName>
+  
+    <label>PMM_Animals</label>
+  
+    <kind>Camp</kind>
+  
+    <materialList>PMM_Animal_mats</materialList>
+  
+    <techLevels>
+      <li>Neolithic</li>
+    </techLevels>
+  
+    <share>0</share>
+  
+    <mapSize>175</mapSize>
+  
+    <coreSize>66~74</coreSize>
+  
+    <worldTexture>World/WorldObjects/CBF/CBF_Camp</worldTexture>
+  
+    <wards>
+      <li>
+        <kind>Town</kind>
+        <name>OldTown</name>
+        <supply>1.2</supply>
+        <roads>
+          <li>PackedDirt</li>
+        </roads>
+        <districts>
+          <li>
+            <name>Default</name>
+            <prefCenter>1</prefCenter>
+            <prefGate>1</prefGate>
+            <prefWall>1</prefWall>
+            <prefMain>1</prefMain>
+            <entries>
+              <li><piece>PMM_Animal_Barracks</piece><count>1~2</count></li>
+              <li><piece>PMM_Animal_Kitchen</piece><count>1~1</count></li>
+              <li><piece>PMM_Animal_Store</piece><count>1~1</count></li>
+              <li><piece>PMM_Animal_Workshop</piece><count>1~1</count></li>
+            </entries>
+          </li>
+        </districts>
+      </li>
+      <li>
+        <kind>Suburb</kind>
+        <name>NewTown</name>
+        <supply>1.2</supply>
+        <districts>
+          <li>
+            <name>Default</name><fields><li>
+              <count>1~2</count>
+              <fence>true</fence>
+              <weight>1</weight>
+              <crops>PMM_Animal_Crops</crops><plants>
+                <li>Plant_Potato</li>
+               </plants>
+              <tags>
+                <li>PMM_Animal</li>
+              </tags></li></fields>
+            <entries>
+              <li><piece>PMM_Animal_Cow</piece><count>0~1</count></li>
+              <li><piece>PMM_Animal_Goat</piece><count>0~2</count></li>
+              <li><piece>PMM_Animal_Chicken</piece><count>1~3</count></li>
+            </entries>
+          </li>
+        </districts>
+      </li>
+      <li>
+        <kind>Rural</kind>
+        <name>Countryside</name>
+        <supply>1.2</supply>
+        <districts>
+          <li>
+            <name>Default</name>
+            <entries>
+            </entries>
+          </li>
+        </districts>
+      </li>
+    </wards>
+  
+    <ideoStyle>true</ideoStyle>
+  </CustomBaseFramework.SettlementPlanDef>
+
+</Defs>

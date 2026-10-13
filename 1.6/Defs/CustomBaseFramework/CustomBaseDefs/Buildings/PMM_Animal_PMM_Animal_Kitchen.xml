@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Animal_kitchen</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Animal</li>
+    </categories>
+
+    <anchors>
+      <li>.......................</li>
+      <li>.......................</li>
+      <li>.......................</li>
+      <li>..jj...............qq..</li>
+      <li>.....oo.........mm.....</li>
+      <li>.......................</li>
+      <li>.....kk.........rr.....</li>
+      <li>..pp...............nn..</li>
+      <li>.......................</li>
+      <li>.......................</li>
+      <li>.......................</li>
+    </anchors>
+    <legend>
+      <li MayRequire="VanillaExpanded.VFEArchitect"><symbol>W</symbol><terrain>VFEArch_PlayerPackedDirt</terrain></li>
+      <li><symbol>D</symbol><roof>RoofConstructed</roof></li>
+      <li><symbol>T</symbol><thing>VFEM2_CobblestoneWall_ChunkSandstone</thing></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>B</symbol><thing>DankPyon_RusticDoor</thing><stuff>WoodLog</stuff></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>C</symbol><thing>DankPyon_RawhideRack</thing><stuff>DankPyon_RawWood</stuff></li>
+      <li><symbol>F</symbol><thing>ButcherSpot</thing></li>
+      <li MayRequire="ferny.progressionagriculture"><symbol>P</symbol><thing>SeedPackingCraftingSpot</thing></li>
+      <li MayRequire="reel.expanded.storage"><symbol>R</symbol><thing>ReelNewIndustrialShelf</thing><stuff>WoodLog</stuff></li>
+      <li MayRequire="VanillaExpanded.VFECore"><symbol>L</symbol><thing>Stone_Campfire</thing><stuff>BlocksGranite</stuff><rotation>South</rotation></li>
+      <li MayRequire="VanillaExpanded.VFECore"><symbol>S</symbol><thing>Stone_Campfire</thing><stuff>BlocksGranite</stuff><rotation>East</rotation></li>
+      <li MayRequire="VanillaExpanded.VFECore"><symbol>G</symbol><thing>Stone_Campfire</thing><stuff>BlocksGranite</stuff><rotation>West</rotation></li>
+      <li MayRequire="VanillaExpanded.VFECore"><symbol>H</symbol><thing>Stone_Campfire</thing><stuff>BlocksMarble</stuff></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>K</symbol><thing>DankPyon_RawhideRack</thing><stuff>DankPyon_RawWood</stuff><rotation>South</rotation></li>
+      <li><symbol>j</symbol><anchor>Loot</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_Meat</lootTable><chance>0.69</chance></li>
+      <li><symbol>k</symbol><anchor>Loot2</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_Meat</lootTable><chance>0.56</chance></li>
+      <li><symbol>m</symbol><anchor>Loot3</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_Meat</lootTable><chance>0.68</chance></li>
+      <li><symbol>n</symbol><anchor>Loot4</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_Meat</lootTable><chance>0.72</chance></li>
+      <li><symbol>o</symbol><anchor>Loot5</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_forage</lootTable><chance>0.69</chance></li>
+      <li><symbol>p</symbol><anchor>Loot6</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_forage</lootTable><chance>0.69</chance></li>
+      <li><symbol>q</symbol><anchor>Food1</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_forage</lootTable><chance>0.67</chance></li>
+      <li><symbol>r</symbol><anchor>Loot8</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_forage</lootTable><chance>0.67</chance></li>
+    </legend>
+
+    <mask>
+      <li>......###########......</li>
+      <li>...#################...</li>
+      <li>.#####################.</li>
+      <li>#######################</li>
+      <li>#######################</li>
+      <li>#######################</li>
+      <li>#######################</li>
+      <li>#######################</li>
+      <li>.#####################.</li>
+      <li>...#################...</li>
+      <li>......###########......</li>
+    </mask>
+
+    <terrain>
+      <li>......WWWWWWWWWWW......</li>
+      <li>...WWWWWWWWWWWWWWWWW...</li>
+      <li>.WWWWWWWWWWWWWWWWWWWW..</li>
+      <li>WWWWWWWWWWWWWWWWWWWWW..</li>
+      <li>WWWWWWWWWWWWWWWWWWWWWW.</li>
+      <li>WWWWWWWWWWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWWWWWWWWW.</li>
+      <li>.WWWWWWWWWWWWWWWWWWWW..</li>
+      <li>..WWWWWWWWWWWWWWWWW....</li>
+      <li>.....WWWWWWWWWWW.......</li>
+      <li>...........W...........</li>
+    </terrain>
+
+    <things>
+      <li>......TTTTTBTTTTT......</li>
+      <li>...TTTTC.FF.C.PPTTTT...</li>
+      <li>.TTT.C..........C..TTT.</li>
+      <li>TTR................R.TT</li>
+      <li>T....R.....L....R.....T</li>
+      <li>B.........S.G.........B</li>
+      <li>T....R.....H....R.....T</li>
+      <li>TTR................R.TT</li>
+      <li>.TTT.K..........K..TTT.</li>
+      <li>...TTTTK.K..K.K.TTTT...</li>
+      <li>......TTTTTBTTTTT......</li>
+    </things>
+
+    <roof>
+      <li>......DDDDDDDDDDD......</li>
+      <li>...DDDDDDDDDDDDDDDDD...</li>
+      <li>.DDDDDDDDDDDDDDDDDDDDD.</li>
+      <li>DDDDDDDDDDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDDDDDDDDDD</li>
+      <li>.DDDDDDDDDDDDDDDDDDDDD.</li>
+      <li>...DDDDDDDDDDDDDDDDD...</li>
+      <li>......DDDDDDDDDDD......</li>
+    </roof>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Insects_Turret</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Insects</li>
+    </categories>
+
+    <placement>
+    <atWall>StronglyPreferred</atWall>
+    <factions>
+      <li>Insect</li>
+      <li>PMM_InsectorHive</li>
+      <li>PMM_InsectorSwarm</li>
+    </factions>
+  </placement>
+    <legend>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>W</symbol><terrain>VFEI2_Creep</terrain></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>D</symbol><thing>VFEI2_Thornspitter</thing></li>
+      <li><symbol>T</symbol><thing>VFEI_BurrowWall</thing></li>
+    </legend>
+
+    <mask>
+      <li>####</li>
+      <li>####</li>
+      <li>####</li>
+      <li>####</li>
+    </mask>
+
+    <terrain>
+      <li>WWWW</li>
+      <li>WWWW</li>
+      <li>WWWW</li>
+      <li>WWWW</li>
+    </terrain>
+
+    <things>
+      <li>DTTD</li>
+      <li>TTTT</li>
+      <li>TTTT</li>
+      <li>DTTD</li>
+    </things>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

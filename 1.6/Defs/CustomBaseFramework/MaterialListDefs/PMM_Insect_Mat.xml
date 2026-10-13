@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.MaterialListDef>
+    <defName>PMM_Insect_Mat</defName>
+    <parent>CBF_MaterialList_Base</parent>
+    <roles>
+      <li>
+        <role>WALL</role>
+        <criticality>Critical</criticality>
+        <chain><li MayRequire="OskarPotocki.VFE.Insectoid2">VFEI_HivestoneWall</li></chain>
+        <tagSearch>AnyWall</tagSearch>
+      </li>
+      <li>
+        <role>DOOR</role>
+        <criticality>Critical</criticality>
+        <chain><li MayRequire="OskarPotocki.VFE.Insectoid2">VFEI2_HiveDoor</li></chain>
+        <tagSearch>AnyDoor</tagSearch>
+      </li>
+      <li>
+        <role>PILLAR</role>
+        <chain><li MayRequire="OskarPotocki.VFE.Insectoid2">VFEI_HiveWall</li></chain>
+      </li>
+      <li>
+        <role>FLOOR_INTERIOR</role>
+        <criticality>Critical</criticality>
+        <terrainChain><li MayRequire="OskarPotocki.VFE.Insectoid2">VFEI2_Creep</li><li MayRequire="OskarPotocki.VFE.Insectoid2">VFEI2_JellyFloor</li></terrainChain>
+        <tagSearch>AnyHardFloor</tagSearch>
+      </li>
+      <li>
+        <role>FLOOR_FINE</role>
+        <terrainChain><li MayRequire="OskarPotocki.VFE.Insectoid2">VFEI2_RoyalJellyFloor</li></terrainChain>
+        <tagSearch>AnyHardFloor</tagSearch>
+      </li>
+      <li>
+        <role>FLOOR_ROUGH</role>
+        <terrainChain><li MayRequire="OskarPotocki.VFE.Insectoid2">VFEI2_Creep</li></terrainChain>
+      </li>
+      <li>
+        <role>LIGHT</role>
+        <chain><li>GlowPod</li></chain>
+        <tagSearch>AnyLight</tagSearch>
+      </li>
+      <li>
+        <role>FURNITURE</role>
+        <chain><li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_LogChair</li></chain>
+        <stuffChain><li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawWood</li></stuffChain>
+      </li>
+      <li>
+        <role>WALL_INNER</role>
+        <chain><li MayRequire="OskarPotocki.VFE.Insectoid2">VFEI_HiveWall</li><li MayRequire="OskarPotocki.VFE.Insectoid2">VFEI2_InsectJellyWall</li></chain>
+        <tagSearch>AnyWall</tagSearch>
+      </li>
+      <li>
+        <role>FURNITURE_TABLE</role>
+        <chain><li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_LogTable1x2c</li></chain>
+        <stuffChain><li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_RawWood</li></stuffChain>
+      </li>
+      <li>
+        <role>FURNITURE_BED</role>
+        <chain><li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_BedLog</li></chain>
+        <stuffChain><li>WoodLog</li><li>MapWood</li></stuffChain>
+      </li>
+    </roles>
+  </CustomBaseFramework.MaterialListDef>
+
+</Defs>

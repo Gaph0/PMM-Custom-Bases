@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Insects_Workshop</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Insects</li>
+    </categories>
+
+    <placement>
+    <factions>
+      <li>Insect</li>
+      <li>PMM_InsectorHive</li>
+      <li>PMM_InsectorSwarm</li>
+    </factions>
+  </placement>
+    <legend>
+      <li><symbol>W</symbol><roof>RoofConstructed</roof></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>D</symbol><thing>VFEI_HiveWall</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>T</symbol><terrain>VFEI2_Creep</terrain></li>
+      <li><symbol>B</symbol><thing>CraftingSpot</thing></li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey"><symbol>C</symbol><thing>Plant_YellowGrass</thing></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>F</symbol><thing>DankPyon_RawhideRack</thing><stuff>DankPyon_RawWood</stuff></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>P</symbol><thing>DankPyon_RawhideRack</thing><stuff>DankPyon_RawWood</stuff><rotation>West</rotation></li>
+      <li><symbol>R</symbol><thing>GlowPod</thing></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>L</symbol><thing>DankPyon_RawhideRack</thing><stuff>DankPyon_RawWood</stuff><rotation>East</rotation></li>
+      <li MayRequire="ferny.progressionagriculture"><symbol>S</symbol><thing>SeedPackingCraftingSpot</thing><rotation>East</rotation></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>G</symbol><thing>VFEI2_LargeGlowPod</thing></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>H</symbol><thing>DankPyon_StonecuttingSpot</thing><stuff>WoodLog</stuff><rotation>South</rotation></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>K</symbol><thing>DankPyon_RawhideRack</thing><stuff>DankPyon_RawWood</stuff><rotation>South</rotation></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>M</symbol><thing>DankPyon_StonecuttingSpot</thing><stuff>WoodLog</stuff><rotation>East</rotation></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>N</symbol><thing>VFEI2_HiveDoor</thing></li>
+    </legend>
+
+    <mask>
+      <li>....#######....</li>
+      <li>..###########..</li>
+      <li>.#############.</li>
+      <li>.#############.</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>.#############.</li>
+      <li>.#############.</li>
+      <li>..###########..</li>
+      <li>....#######....</li>
+    </mask>
+
+    <terrain>
+      <li>...............</li>
+      <li>.....TTTTT.....</li>
+      <li>...TTTTTTTTT...</li>
+      <li>..TTTTTTTTTTT..</li>
+      <li>..TTTTTTTTTTT..</li>
+      <li>.TTTTTTTTTTTTT.</li>
+      <li>.TTTTTTTTTTTTT.</li>
+      <li>.TTTTTTTTTTTTT.</li>
+      <li>.TTTTTTTTTTTTT.</li>
+      <li>.TTTTTTTTTTTTT.</li>
+      <li>..TTTTTTTTTTT..</li>
+      <li>..TTTTTTTTTTT..</li>
+      <li>...TTTTTTTTT...</li>
+      <li>.....TTTTT.....</li>
+      <li>.......T.......</li>
+    </terrain>
+
+    <things>
+      <li>....DDDDDDD....</li>
+      <li>..DDDBBBBBDDD..</li>
+      <li>.DDF......F.DD.</li>
+      <li>.D.....R.....D.</li>
+      <li>DDP.........LDD</li>
+      <li>D...........R.D</li>
+      <li>D............SD</li>
+      <li>D..R...G......D</li>
+      <li>D.............D</li>
+      <li>D.............D</li>
+      <li>DD........R..DD</li>
+      <li>.DP.........HD.</li>
+      <li>.DDK.......MDD.</li>
+      <li>..DDDR....DDD..</li>
+      <li>....DDDNDDD....</li>
+    </things>
+
+    <plants>
+      <li>...............</li>
+      <li>.......C.......</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+    </plants>
+
+    <roof>
+      <li>....WWWWWWW....</li>
+      <li>..WWWWWWWWWWW..</li>
+      <li>.WWWWWWWWWWWWW.</li>
+      <li>.WWWWWWWWWWWWW.</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>.WWWWWWWWWWWWW.</li>
+      <li>.WWWWWWWWWWWWW.</li>
+      <li>..WWWWWWWWWWW..</li>
+      <li>....WWWWWWW....</li>
+    </roof>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

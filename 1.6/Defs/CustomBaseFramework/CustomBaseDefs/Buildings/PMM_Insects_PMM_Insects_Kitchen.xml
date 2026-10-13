@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Insects_Kitchen</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Insects_Kitchen</li>
+    </categories>
+    <placement>
+      <factions>
+        <li>Insect</li>
+        <li>PMM_InsectorHive</li>
+        <li>PMM_InsectorSwarm</li>
+      </factions>
+    </placement>
+
+    <legend>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>W</symbol><terrain>VFEI2_Creep</terrain></li>
+      <li><symbol>D</symbol><roof>RoofConstructed</roof></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>T</symbol><thing>VFEI_HiveWall</thing></li>
+      <li><symbol>B</symbol><thing>TableButcher</thing><stuff>WoodLog</stuff></li>
+      <li MayRequire="ferny.progressionagriculture"><symbol>C</symbol><thing>SeedPackingCraftingSpot</thing></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>F</symbol><thing>FueledStove</thing><stuff>DankPyon_BlocksClay</stuff></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>K</symbol><thing>DankPyon_StoneOven</thing><stuff>BlocksGranite</stuff><rotation>South</rotation></li>
+      <li><symbol>M</symbol><thing>Brewery</thing><stuff>WoodLog</stuff><rotation>South</rotation></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>N</symbol><thing>VFEI2_HiveDoor</thing></li>
+    </legend>
+
+    <mask>
+      <li>....###########....</li>
+      <li>..###############..</li>
+      <li>.#################.</li>
+      <li>###################</li>
+      <li>###################</li>
+      <li>###################</li>
+      <li>.#################.</li>
+      <li>..###############..</li>
+      <li>....###########....</li>
+    </mask>
+
+    <terrain>
+      <li>....WWW..W.........</li>
+      <li>..WWWWWWWWWWWWWWW..</li>
+      <li>.WWWWWWWWWWWWWWWWW.</li>
+      <li>WWWWWWWWWWWWWWWWWW.</li>
+      <li>WWWWWWWWWWWWWWWWWW.</li>
+      <li>.WWWWWWWWWWWWWWWWW.</li>
+      <li>.WWWWWWWWWWWWWWWWW.</li>
+      <li>..WWWWWWWWWWWWWWW..</li>
+      <li>....WWWWWWWWWWW....</li>
+    </terrain>
+
+    <things>
+      <li>....TTTTTTTTTTT....</li>
+      <li>..TTT.B..CF...TTT..</li>
+      <li>.TT.............TT.</li>
+      <li>TT...............TT</li>
+      <li>T.................T</li>
+      <li>TT...............TT</li>
+      <li>.TT.............TT.</li>
+      <li>..TTT.K...M...TTT..</li>
+      <li>....TTTTTNTTTTT....</li>
+    </things>
+
+    <roof>
+      <li>....DDDDDDDDDDD....</li>
+      <li>..DDDDDDDDDDDDDDD..</li>
+      <li>.DDDDDDDDDDDDDDDDD.</li>
+      <li>DDDDDDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDDDDDD</li>
+      <li>.DDDDDDDDDDDDDDDDD.</li>
+      <li>..DDDDDDDDDDDDDDD..</li>
+      <li>....DDDDDDDDDDD....</li>
+    </roof>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

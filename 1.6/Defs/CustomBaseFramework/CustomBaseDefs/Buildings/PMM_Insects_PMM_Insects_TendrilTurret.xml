@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Insect_TendrilTurret</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Insects</li>
+    </categories>
+
+    <placement>
+    <factions>
+      <li>Insect</li>
+      <li>PMM_InsectorHive</li>
+      <li>PMM_InsectorSwarm</li>
+    </factions>
+  </placement>
+    <legend>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>W</symbol><terrain>VFEI2_Creep</terrain></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>D</symbol><thing>VFEI2_TendrilmossVines</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>T</symbol><thing>VFEI2_Thornspitter</thing></li>
+      <li><symbol>B</symbol><roof>RoofConstructed</roof></li>
+      <li><symbol>C</symbol><thing>VFEI_BurrowWall</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>F</symbol><thing>VFEI2_TendrilFarm</thing></li>
+    </legend>
+
+    <mask>
+      <li>#####</li>
+      <li>#####</li>
+      <li>#####</li>
+      <li>#####</li>
+      <li>#####</li>
+    </mask>
+
+    <terrain>
+      <li>WWWWW</li>
+      <li>WWWWW</li>
+      <li>WWWWW</li>
+      <li>WWWWW</li>
+      <li>WWWWW</li>
+    </terrain>
+
+    <things>
+      <li>.....</li>
+      <li>.TCT.</li>
+      <li>.CFC.</li>
+      <li>.TCT.</li>
+      <li>.....</li>
+    </things>
+
+    <plants>
+      <li>DDDDD</li>
+      <li>D..DD</li>
+      <li>D...D</li>
+      <li>D...D</li>
+      <li>DDDDD</li>
+    </plants>
+
+    <roof>
+      <li>.....</li>
+      <li>..B..</li>
+      <li>.BBB.</li>
+      <li>..B..</li>
+      <li>.....</li>
+    </roof>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

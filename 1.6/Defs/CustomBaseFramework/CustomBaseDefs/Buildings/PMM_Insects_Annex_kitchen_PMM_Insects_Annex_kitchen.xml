@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Insects_Annex_kitchen</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Insects_Annex_kitchen</li>
+    </categories>
+
+    <legend>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>W</symbol><terrain>VFEI2_Creep</terrain></li>
+      <li><symbol>D</symbol><roof>RoofConstructed</roof></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>T</symbol><thing>VFEI_HiveWall</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>B</symbol><thing>VFEI2_HiveDoor</thing><rotation>East</rotation></li>
+      <li><symbol>C</symbol><anchor>Annex</anchor></li>
+    </legend>
+
+    <mask>
+      <li>.######.</li>
+      <li>########</li>
+      <li>########</li>
+      <li>########</li>
+      <li>########</li>
+      <li>########</li>
+      <li>########</li>
+      <li>.######.</li>
+    </mask>
+
+    <terrain>
+      <li>.WWWWWW.</li>
+      <li>WWWWWWWW</li>
+      <li>WWWWWWWW</li>
+      <li>WWWWWWWW</li>
+      <li>WWWWWWWW</li>
+      <li>WWWWWWWW</li>
+      <li>WWWWWWWW</li>
+      <li>.WWWWWW.</li>
+    </terrain>
+
+    <things>
+      <li>.TTTTTT.</li>
+      <li>TT....TT</li>
+      <li>T......T</li>
+      <li>T......T</li>
+      <li>T......B</li>
+      <li>T......T</li>
+      <li>TT....TT</li>
+      <li>.TTTTTT.</li>
+    </things>
+
+    <roof>
+      <li>.DDDDDD.</li>
+      <li>DDDDDDDD</li>
+      <li>DDDDDDDD</li>
+      <li>DDDDDDDD</li>
+      <li>DDDDDDDD</li>
+      <li>DDDDDDDD</li>
+      <li>DDDDDDDD</li>
+      <li>.DDDDDD.</li>
+    </roof>
+
+    <anchors>
+      <li>........</li>
+      <li>........</li>
+      <li>........</li>
+      <li>........</li>
+      <li>.......C</li>
+      <li>........</li>
+      <li>........</li>
+      <li>........</li>
+    </anchors>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

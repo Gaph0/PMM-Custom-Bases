@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.CropListDef>
+    <defName>PMM_Animal_Crops</defName>
+    <plants>
+      <li MayRequire="VanillaExpanded.VPlantsE"><plant>VCE_Onion</plant></li>
+      <li MayRequire="VanillaExpanded.VPlantsE"><plant>VCE_BearBerryBush</plant></li>
+      <li><plant>Plant_Potato</plant></li>
+    </plants>
+  </CustomBaseFramework.CropListDef>
+</Defs>

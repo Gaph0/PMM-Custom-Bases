@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+
+
+
+
+  <CustomBaseFramework.LootTableDef MayRequireAnyOf="VanillaExpanded.VWETB,OskarPotocki.VFE.Tribals"><defName>PMM_Animal_Weapons</defName><rollChance>0.24</rollChance><entries><li MayRequire="VanillaExpanded.VWETB"><thing>VWE_MeleeWeapon_HeavyClub</thing><hitPoints>0.5~1</hitPoints></li><li MayRequire="OskarPotocki.VFE.Tribals"><thing>VFET_Chunk</thing><hitPoints>0.5~1</hitPoints></li><li MayRequire="VanillaExpanded.VWETB"><thing>VWE_MeleeWeapon_LightClub</thing><hitPoints>0.5~1</hitPoints></li><li MayRequire="VanillaExpanded.VWETB"><thing>VWE_MeleeWeapon_TribalAxe</thing><hitPoints>0.5~1</hitPoints></li><li MayRequire="VanillaExpanded.VWETB"><thing>VWE_MeleeWeapon_Shiv</thing><hitPoints>0.5~1</hitPoints></li><li MayRequire="VanillaExpanded.VWETB"><thing>VWE_Sling</thing><quality>Awful~Good</quality><hitPoints>0.5~1</hitPoints></li><li MayRequire="VanillaExpanded.VWETB"><thing>VWE_Throwing_Shards</thing><quality>Awful~Good</quality><hitPoints>0.5~1</hitPoints></li><li MayRequire="OskarPotocki.VFE.Tribals"><thing>VFET_Stake</thing><quality>Awful~Good</quality><hitPoints>0.5~1</hitPoints></li><li MayRequire="OskarPotocki.VFE.Tribals"><thing>VFET_Throwspikes</thing><quality>Awful~Good</quality><hitPoints>0.51~1</hitPoints></li></entries></CustomBaseFramework.LootTableDef>
+
+  <CustomBaseFramework.LootTableDef>
+    <defName>Stoneloot</defName>
+    <rolls>1~4</rolls>
+    <entries>
+      <li>
+        <thing>BlocksLimestone</thing>
+        <count>1~75</count>
+      </li>
+      <li>
+        <thing>BlocksSandstone</thing>
+        <count>1~75</count>
+      </li>
+      <li MayRequire="DankPyon.Medieval.Overhaul">
+        <thing>DankPyon_BlocksClay</thing>
+        <count>1~75</count>
+      </li>
+    </entries>
+  </CustomBaseFramework.LootTableDef>
+
+  <CustomBaseFramework.LootTableDef>
+    <defName>PMM_Animal_Meat</defName>
+    <entries>
+      <li MayRequire="DankPyon.Medieval.Overhaul">
+        <thing>DankPyon_Bone</thing>
+        <count>1~75</count>
+        <stuff>DankPyon_Bone</stuff>
+      </li>
+      <li>
+        <category>MeatRaw</category>
+        <count>1~75</count>
+      </li>
+    </entries>
+  </CustomBaseFramework.LootTableDef>
+
+  <CustomBaseFramework.LootTableDef>
+    <defName>CBF_Loot_Neu</defName>
+    <always>
+      <li>
+        <thing>MedicineHerbal</thing>
+        <count>1~10</count>
+      </li>
+    </always>
+  </CustomBaseFramework.LootTableDef>
+
+  <CustomBaseFramework.LootTableDef><defName>PMM_Animal_forage</defName><entries><li MayRequire="DankPyon.Medieval.Overhaul"><thing>DankPyon_RawApples</thing><count>1~75</count></li><li MayRequire="VanillaExpanded.VPlantsE"><thing>VCE_Bearberry</thing><count>1~75</count></li><li><thing>RawBerries</thing><count>1~75</count></li><li><thing>Hay</thing><count>1~75</count></li></entries></CustomBaseFramework.LootTableDef>
+
+  <CustomBaseFramework.LootTableDef MayRequire="DankPyon.Medieval.Overhaul">
+    <defName>PMM_Log_Loot</defName>
+    <always>
+      <li>
+        <thing>DankPyon_RawWood</thing>
+        <count>1~75</count>
+      </li>
+    </always>
+  </CustomBaseFramework.LootTableDef>
+
+  <CustomBaseFramework.LootTableDef>
+    <defName>CBF_Loot_Neu2</defName>
+    <always>
+      <li>
+        <thing>InsectJelly</thing>
+        <count>1~75</count>
+      </li>
+    </always>
+  </CustomBaseFramework.LootTableDef>
+
+  <CustomBaseFramework.LootTableDef>
+    <defName>Insect_jelly</defName>
+    <always>
+      <li>
+        <thing>InsectJelly</thing>
+        <count>1~75</count>
+      </li>
+    </always>
+  </CustomBaseFramework.LootTableDef>
+</Defs>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Animal_chicken</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Animal</li>
+    </categories>
+
+    <placement>
+    <atWall>Preferred</atWall>
+  </placement>
+    <legend>
+      <li><symbol>W</symbol><thing>Fence</thing><stuff>WoodLog</stuff></li>
+      <li><symbol>D</symbol><thing>FenceGate</thing><stuff>WoodLog</stuff></li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey"><symbol>T</symbol><thing>Plant_YellowTallGrass</thing></li>
+      <li><symbol>B</symbol><thing>PenMarker</thing><stuff>WoodLog</stuff></li>
+      <li MayRequire="Ludeon.RimWorld.Odyssey"><symbol>C</symbol><thing>Plant_YellowGrass</thing></li>
+      <li><symbol>F</symbol><roof>RoofConstructed</roof></li>
+      <li><symbol>P</symbol><thing>VFEM2_CobblestoneWall_ChunkSandstone</thing></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>R</symbol><thing>AnimalFlap</thing><stuff>DankPyon_Linen</stuff></li>
+      <li><symbol>L</symbol><thing>AnimalSleepingSpot</thing></li>
+      <li><symbol>S</symbol><thing>EggBox</thing><stuff>WoodLog</stuff></li>
+      <li><symbol>G</symbol><anchor>Chickens</anchor><anchorKind>Spawn</anchorKind><pawnList>PMM_Animal_Chickens</pawnList><pawnCount>2~6</pawnCount></li>
+    </legend>
+
+    <mask>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>..###########..</li>
+      <li>..###########..</li>
+      <li>..###########..</li>
+    </mask>
+
+    <things>
+      <li>WDWWWWWWWWWWWDW</li>
+      <li>D.......B.....D</li>
+      <li>W.............W</li>
+      <li>W.............W</li>
+      <li>W.............W</li>
+      <li>W.............W</li>
+      <li>W.............W</li>
+      <li>W.............W</li>
+      <li>W.............W</li>
+      <li>W.............W</li>
+      <li>WWPRPPPPPPPRPWW</li>
+      <li>..P.........P..</li>
+      <li>..PLLLSSSLLLP..</li>
+      <li>..PPPPPPPPPPP..</li>
+    </things>
+
+    <plants>
+      <li>...............</li>
+      <li>....T....C.T...</li>
+      <li>..C...C.C...T..</li>
+      <li>...C...C.C.C...</li>
+      <li>..TT.C.C.T.C...</li>
+      <li>.C...TT..TT..T.</li>
+      <li>.C..T.....TC.C.</li>
+      <li>.CC.CTT.T.TT...</li>
+      <li>..C..T.C...TT..</li>
+      <li>...TT...C..TT..</li>
+      <li>...............</li>
+      <li>...TC.C.T.C....</li>
+      <li>...............</li>
+      <li>...............</li>
+    </plants>
+
+    <roof>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>..FFFFFFFFFFF..</li>
+      <li>..FFFFFFFFFFF..</li>
+      <li>..FFFFFFFFFFF..</li>
+      <li>..FFFFFFFFFFF..</li>
+    </roof>
+
+    <anchors>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>.......G.......</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+    </anchors>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

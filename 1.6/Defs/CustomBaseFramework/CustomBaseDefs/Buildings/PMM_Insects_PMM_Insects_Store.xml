@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Insects_Store</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Insects</li>
+    </categories>
+
+    <anchors>
+      <li>...........</li>
+      <li>...AA.FF...</li>
+      <li>...AA.O.M..</li>
+      <li>.G.H..O.M..</li>
+      <li>.G.H....NN.</li>
+      <li>...........</li>
+      <li>.KK.P..J.I.</li>
+      <li>..Q.P..J.I.</li>
+      <li>..Q.L.EE...</li>
+      <li>....L.EE...</li>
+      <li>...........</li>
+    </anchors>
+    <placement>
+    <factions>
+      <li>Insect</li>
+      <li>PMM_InsectorSwarm</li>
+      <li>PMM_InsectorHive</li>
+    </factions>
+  </placement>
+    <legend>
+      <li><symbol>W</symbol><roof>RoofConstructed</roof></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>D</symbol><thing>VFEI_HiveWall</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>T</symbol><terrain>VFEI2_Creep</terrain></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>B</symbol><thing>VFEI2_HiveDoor</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>C</symbol><thing>VFEI2_HiveDoor</thing><rotation>East</rotation></li>
+      <li><symbol>A</symbol><anchor>Ingot_Loot</anchor><anchorKind>Fill</anchorKind><objects>PMM_Ingot_storage</objects><lootTable>CBF_MO_Goods_Ingots</lootTable><chance>0.78</chance></li>
+      <li><symbol>E</symbol><anchor>Stone_Loot</anchor><anchorKind>Fill</anchorKind><objects>PMM_Stone_storage</objects><lootTable>CBF_MO_Goods_Stone</lootTable><chance>0.81</chance></li>
+      <li><symbol>F</symbol><anchor>Log_Loot</anchor><anchorKind>Fill</anchorKind><objects>PMM_Logs</objects><lootTable>PMM_Log_Loot</lootTable><chance>0.9</chance></li>
+      <li><symbol>G</symbol><anchor>Animal_Loot_1</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_forage</lootTable><chance>0.81</chance></li>
+      <li><symbol>H</symbol><anchor>Animal_Loot_2</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_forage</lootTable><chance>0.86</chance></li>
+      <li><symbol>I</symbol><anchor>Animal_Loot_3</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_forage</lootTable><chance>0.81</chance></li>
+      <li><symbol>J</symbol><anchor>Animal_Loot_4</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>PMM_Animal_forage</lootTable><chance>0.81</chance></li>
+      <li><symbol>K</symbol><anchor>Animal_Loot_5</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>Insect_jelly</lootTable><chance>0.81</chance></li>
+      <li><symbol>L</symbol><anchor>Animal_Loot_6</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>Insect_jelly</lootTable><chance>0.81</chance></li>
+      <li><symbol>M</symbol><anchor>Wood_loot</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_Vanilla_Goods_Wood</lootTable><chance>0.89</chance></li>
+      <li><symbol>N</symbol><anchor>Loot</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_Vanilla_Loot_Minimal</lootTable><chance>0.83</chance></li>
+      <li><symbol>O</symbol><anchor>Loot2</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_Vanilla_Loot_Minimal</lootTable><chance>0.83</chance></li>
+      <li><symbol>P</symbol><anchor>Loot3</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_Vanilla_Loot_Minimal</lootTable><chance>0.83</chance></li>
+      <li><symbol>Q</symbol><anchor>Loot4</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_Vanilla_Loot_Minimal</lootTable><chance>0.83</chance></li>
+    </legend>
+
+    <mask>
+      <li>..#######..</li>
+      <li>.#########.</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>.#########.</li>
+      <li>..#######..</li>
+    </mask>
+
+    <terrain>
+      <li>.....T.....</li>
+      <li>...TTTTT...</li>
+      <li>..TTTTTTT..</li>
+      <li>.TTTTTTTTT.</li>
+      <li>.TTTTTTTTT.</li>
+      <li>TTTTTTTTTTT</li>
+      <li>.TTTTTTTTT.</li>
+      <li>.TTTTTTTTT.</li>
+      <li>..TTTTTTT..</li>
+      <li>...TTTTT...</li>
+      <li>.....T.....</li>
+    </terrain>
+
+    <things>
+      <li>..DDDBDDD..</li>
+      <li>.DD.....DD.</li>
+      <li>DD.......DD</li>
+      <li>D.........D</li>
+      <li>D.........D</li>
+      <li>C.........C</li>
+      <li>D.........D</li>
+      <li>D.........D</li>
+      <li>DD.......DD</li>
+      <li>.DD.....DD.</li>
+      <li>..DDDBDDD..</li>
+    </things>
+
+    <roof>
+      <li>..WWWWWWW..</li>
+      <li>.WWWWWWWWW.</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>.WWWWWWWWW.</li>
+      <li>..WWWWWWW..</li>
+    </roof>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

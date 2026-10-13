@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.SettlementPlanDef MayRequire="OskarPotocki.VFE.Insectoid2,Ludeon.RimWorld.Odyssey,DankPyon.Medieval.Overhaul,ferny.progressionagriculture,Sarg.AlphaMemes,OskarPotocki.VFE.Medieval2">
+    <defName>PMM_Insects</defName>
+  
+    <label>PMM_Insects</label>
+  
+    <kind>Camp</kind>
+  
+    <factionTags>
+      <li>PMM_InsectorSwarm</li>
+      <li>PMM_InsectorHive</li>
+      <li>Insect</li>
+    </factionTags>
+  
+    <techLevels>
+      <li>Neolithic</li>
+    </techLevels>
+  
+    <share>0</share>
+  
+    <mapSize>175</mapSize>
+  
+    <coreSize>66~91</coreSize>
+  
+    <wards>
+      <li>
+        <kind>Town</kind>
+        <name>OldTown</name>
+        <gate>VFEI2_HiveDoor</gate>
+        <supply>1.2</supply>
+        <roads>
+          <li>VFEI2_Creep</li>
+        </roads>
+        <walls>
+          <li MayRequire="OskarPotocki.VFE.Medieval2">CBF_VFEM2_Palisade</li>
+        </walls>
+        <gatehouses>
+          <li>CBF_MO_PalisadeGatehouse_B</li>
+        </gatehouses>
+        <districts>
+          <li>
+            <name>Default</name>
+            <prefGate>1</prefGate>
+            <prefWall>1</prefWall>
+            <prefMain>1</prefMain>
+            <entries>
+              <li><piece>PMM_Insects_Workshop</piece><count>1~1</count></li>
+              <li><piece>PMM_Insects_jellyfarm</piece><count>1~4</count></li>
+              <li><piece>PMM_Insects_Kitchen</piece><count>1~1</count></li>
+              <li><piece>PMM_Insects_Store</piece><count>1~1</count></li>
+            </entries>
+          </li>
+          <li>
+            <name>Hive Dist</name>
+            <prefCenter>1</prefCenter>
+            <entries>
+              <li><piece>PMM_Insects_Hive</piece><count>1~3</count></li>
+            </entries>
+          </li>
+        </districts>
+      </li>
+      <li>
+        <kind>Suburb</kind>
+        <name>NewTown</name>
+        <supply>1.2</supply>
+        <districts>
+          <li>
+            <name>Default</name>
+            <prefGate>1</prefGate>
+            <prefWall>1</prefWall>
+            <prefMain>1</prefMain>
+            <entries>
+              <li><piece>PMM_Insects_Turret</piece><count>1~4</count></li>
+              <li><piece>PMM_Insect_TendrilTurret</piece><count>1~2</count></li>
+            </entries>
+          </li>
+        </districts>
+      </li>
+      <li>
+        <kind>Rural</kind>
+        <name>Countryside</name>
+        <supply>1.2</supply>
+        <districts>
+          <li>
+            <name>Default</name><fields><li>
+              <count>1~1</count>
+              <fence>true</fence>
+              <weight>1</weight><plants>
+                <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Plant_Cabbages</li>
+               </plants></li></fields><pens><li>
+              <name>Pen</name>
+              <count>1~1</count>
+              <herd>3~7</herd>
+              <pawns>PMM_Insects_Capy</pawns>
+              <weight>1</weight></li><li>
+              <name>Pen</name>
+              <count>1~1</count>
+              <herd>3~7</herd>
+              <pawns>PMM_Insects_Capy</pawns>
+              <weight>1</weight></li><li>
+              <name>Pen</name>
+              <count>1~1</count>
+              <herd>3~7</herd>
+              <pawns>PMM_Insects_Elk</pawns>
+              <weight>1</weight></li></pens>
+            <entries>
+            </entries>
+          </li>
+        </districts>
+      </li>
+    </wards>
+  
+    <materialList>PMM_Insect_Mat</materialList>
+  
+    <worldTexture>World/WorldObjects/CBF/CBF_Camp</worldTexture>
+  
+    <coreShapes>
+      <li>Rectangle</li>
+      <li>Octagon</li>
+    </coreShapes>
+  </CustomBaseFramework.SettlementPlanDef>
+
+</Defs>

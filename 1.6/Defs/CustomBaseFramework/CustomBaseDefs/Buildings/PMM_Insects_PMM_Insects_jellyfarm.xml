@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Insects_jellyfarm</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Insects</li>
+    </categories>
+    <placement>
+      <factions>
+        <li>Insect</li>
+        <li>PMM_InsectorHive</li>
+        <li>PMM_InsectorSwarm</li>
+      </factions>
+    </placement>
+
+    <legend>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>W</symbol><terrain>VFEI2_Creep</terrain></li>
+      <li><symbol>D</symbol><roof>RoofConstructed</roof></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>T</symbol><thing>VFEI_HiveWall</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>B</symbol><thing>VFEI2_InsectJellyWall</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>C</symbol><thing>VFEI2_JellyFarm</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>F</symbol><thing>VFEI2_HiveDoor</thing><rotation>East</rotation></li>
+      <li><symbol>P</symbol><thing>InsectJelly</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>R</symbol><thing>VFEI2_Creeper</thing></li>
+      <li><symbol>G</symbol><anchor>Loot3</anchor><anchorKind>Fill</anchorKind><lootTable>Insect_jelly</lootTable></li>
+      <li><symbol>A</symbol><anchor>Loot</anchor><anchorKind>Fill</anchorKind><lootTable>Insect_jelly</lootTable></li>
+      <li><symbol>E</symbol><anchor>Loot2</anchor><anchorKind>Fill</anchorKind><lootTable>Insect_jelly</lootTable></li>
+    </legend>
+
+    <mask>
+      <li>....#######....</li>
+      <li>.#############.</li>
+      <li>.#############.</li>
+      <li>.#############.</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>###############</li>
+      <li>.#############.</li>
+      <li>.#############.</li>
+      <li>.#############.</li>
+      <li>....#######....</li>
+    </mask>
+
+    <terrain>
+      <li>....WWWWWWW....</li>
+      <li>.WWWWWWWWWWWWW.</li>
+      <li>.WWWWWWWWWWWWW.</li>
+      <li>.WWWWWWWWWWWWW.</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWWWW</li>
+      <li>.WWWWWWWWWWWWW.</li>
+      <li>.WWWWWWWWWWWWW.</li>
+      <li>.WWWWWWWWWWWWW.</li>
+      <li>....WWWWWWW....</li>
+    </terrain>
+
+    <things>
+      <li>....TTTTTTT....</li>
+      <li>.TTTTTTTTTTTTT.</li>
+      <li>.TTTBBBBBBBBTT.</li>
+      <li>.TTBB......BBT.</li>
+      <li>TTBB........BTT</li>
+      <li>TTB.C....C..BTT</li>
+      <li>TTB.........BTT</li>
+      <li>F.P....R....BTT</li>
+      <li>TTB.........BTT</li>
+      <li>TTB.........BTT</li>
+      <li>TTB.C....C..BTT</li>
+      <li>.TBB.......BBT.</li>
+      <li>.TTBBBBBBBBBTT.</li>
+      <li>.TTTTTTTTTTTTT.</li>
+      <li>....TTTTTTT....</li>
+    </things>
+
+    <roof>
+      <li>....DDDDDDD....</li>
+      <li>.DDDDDDDDDDDDD.</li>
+      <li>.DDDDDDDDDDDDD.</li>
+      <li>.DDDDDDDDDDDDD.</li>
+      <li>DDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDD</li>
+      <li>DDDDDDDDDDDDDDD</li>
+      <li>.DDDDDDDDDDDDD.</li>
+      <li>.DDDDDDDDDDDDD.</li>
+      <li>.DDDDDDDDDDDDD.</li>
+      <li>....DDDDDDD....</li>
+    </roof>
+
+    <anchors>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>......E........</li>
+      <li>...............</li>
+      <li>..........A....</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>......G........</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+      <li>...............</li>
+    </anchors>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

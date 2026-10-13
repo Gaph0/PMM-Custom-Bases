@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceCategoryDef>
+    <defName>PMM_Animal</defName>
+    <label>PMM_Animal</label>
+    <zones>
+      <li>Inside</li>
+    </zones>
+    <needsRoadAccess>true</needsRoadAccess>
+  </CustomBaseFramework.PieceCategoryDef>
+
+  <CustomBaseFramework.PieceCategoryDef>
+    <defName>PMM_Insects</defName>
+    <label>PMM_Insects</label>
+    <zones>
+      <li>Inside</li>
+    </zones>
+    <needsRoadAccess>true</needsRoadAccess>
+  </CustomBaseFramework.PieceCategoryDef>
+
+  <CustomBaseFramework.PieceCategoryDef>
+    <defName>PMM_Insects_Annex_kitchen</defName>
+    <label>PMM_Insects_Annex_kitchen</label>
+    <zones>
+      <li>Inside</li>
+    </zones>
+    <needsRoadAccess>true</needsRoadAccess>
+  </CustomBaseFramework.PieceCategoryDef>
+
+  <CustomBaseFramework.PieceCategoryDef>
+    <defName>PMM_Insects_Hive</defName>
+    <label>PMM_Insects_Hive</label>
+    <parent>PMM_Insects</parent>
+    <zones>
+      <li>Inside</li>
+    </zones>
+    <needsRoadAccess>false</needsRoadAccess>
+    <merge>false</merge>
+    <annexes>
+      <li>PMM_Insects_Hive_Annex</li>
+    </annexes>
+    <annexMax>8</annexMax>
+    <annexMultiple>true</annexMultiple>
+    <annexFill>false</annexFill>
+    <annexChance>1</annexChance>
+  </CustomBaseFramework.PieceCategoryDef>
+
+  <CustomBaseFramework.PieceCategoryDef>
+    <defName>PMM_Insects_Hive_Annex</defName>
+    <label>PMM_Insects_Hive_Annex</label>
+    <zones>
+      <li>Inside</li>
+    </zones>
+    <merge>false</merge>
+    <annexChance>1</annexChance>
+    <annexMax>8</annexMax>
+    <annexMultiple>true</annexMultiple>
+    <annexFill>false</annexFill>
+  </CustomBaseFramework.PieceCategoryDef>
+
+  <CustomBaseFramework.PieceCategoryDef>
+    <defName>PMM_Insects_Kitchen</defName>
+    <label>PMM_Insects_Kitchen</label>
+    <zones>
+      <li>Inside</li>
+    </zones>
+    <needsRoadAccess>true</needsRoadAccess>
+  </CustomBaseFramework.PieceCategoryDef>
+
+</Defs>

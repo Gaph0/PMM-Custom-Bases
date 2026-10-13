@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Insects_Hive_Annex_Bedroom</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Insects_Hive_Annex</li>
+    </categories>
+    <onlyWithMod>gapho.pmmcustombases</onlyWithMod>
+
+    <legend>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>W</symbol><terrain>VFEI2_Creep</terrain></li>
+      <li><symbol>D</symbol><roof>RoofConstructed</roof></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>T</symbol><thing>VFEI_HiveWall</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>B</symbol><thing>VFEI2_HiveDoor</thing></li>
+      <li><symbol>C</symbol><thing>GlowPod</thing></li>
+      <li><symbol>F</symbol><thing>DiningChair</thing><stuff>WoodLog</stuff><rotation>East</rotation></li>
+      <li MayRequire="VanillaExpanded.VFECore"><symbol>P</symbol><thing>Table_1x1c</thing><stuff>WoodLog</stuff></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>L</symbol><thing>Bedroll</thing><stuff>VFEI2_Chitin</stuff><rotation>East</rotation></li>
+      <li><symbol>R</symbol><anchor>Annex</anchor><required>true</required></li>
+    </legend>
+
+    <mask>
+      <li>.#####.</li>
+      <li>#######</li>
+      <li>#######</li>
+      <li>#######</li>
+      <li>.#####.</li>
+    </mask>
+
+    <terrain>
+      <li>.WWWWW.</li>
+      <li>WWWWWWW</li>
+      <li>WWWWWWW</li>
+      <li>WWWWWWW</li>
+      <li>.WWWWW.</li>
+    </terrain>
+
+    <things>
+      <li>.TTBTT.</li>
+      <li>TT...TT</li>
+      <li>TC..FPT</li>
+      <li>TTL..TT</li>
+      <li>.TTTTT.</li>
+    </things>
+
+    <roof>
+      <li>.DDDDD.</li>
+      <li>DDDDDDD</li>
+      <li>DDDDDDD</li>
+      <li>DDDDDDD</li>
+      <li>.DDDDD.</li>
+    </roof>
+
+    <anchors>
+      <li>...R...</li>
+      <li>.......</li>
+      <li>.......</li>
+      <li>.......</li>
+      <li>.......</li>
+    </anchors>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

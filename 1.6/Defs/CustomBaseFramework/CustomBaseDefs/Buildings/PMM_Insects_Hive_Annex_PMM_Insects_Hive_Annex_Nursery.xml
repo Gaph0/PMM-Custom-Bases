@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Insects_Hive_Annex_Nursery</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Insects_Hive_Annex</li>
+    </categories>
+
+    <legend>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>W</symbol><terrain>VFEI2_Creep</terrain></li>
+      <li><symbol>D</symbol><roof>RoofConstructed</roof></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>T</symbol><thing>VFEI_HiveWall</thing></li>
+      <li MayRequire="OskarPotocki.VFE.Insectoid2"><symbol>B</symbol><thing>VFEI2_HiveDoor</thing></li>
+      <li MayRequire="Ludeon.RimWorld.Biotech,DankPyon.Medieval.Overhaul"><symbol>C</symbol><thing>ToyBox</thing><stuff>DankPyon_Bone</stuff></li>
+      <li><symbol>F</symbol><thing>GlowPod</thing></li>
+      <li MayRequire="Ludeon.RimWorld.Biotech,DankPyon.Medieval.Overhaul"><symbol>P</symbol><thing>Crib</thing><stuff>DankPyon_Bone</stuff><rotation>East</rotation></li>
+      <li MayRequire="Ludeon.RimWorld.Biotech,DankPyon.Medieval.Overhaul"><symbol>R</symbol><thing>Crib</thing><stuff>DankPyon_Bone</stuff><rotation>West</rotation></li>
+      <li MayRequire="Ludeon.RimWorld.Biotech,DankPyon.Medieval.Overhaul"><symbol>L</symbol><thing>BabyDecoration</thing><stuff>DankPyon_Bone</stuff></li>
+    </legend>
+
+    <mask>
+      <li>.#####.</li>
+      <li>#######</li>
+      <li>#######</li>
+      <li>#######</li>
+      <li>.#####.</li>
+    </mask>
+
+    <terrain>
+      <li>.WWWWW.</li>
+      <li>WWWWWWW</li>
+      <li>WWWWWWW</li>
+      <li>WWWWWWW</li>
+      <li>.WWWWW.</li>
+    </terrain>
+
+    <things>
+      <li>.TTBTT.</li>
+      <li>TTC.FTT</li>
+      <li>TP...RT</li>
+      <li>TT.LLTT</li>
+      <li>.TTTTT.</li>
+    </things>
+
+    <roof>
+      <li>.DDDDD.</li>
+      <li>DDDDDDD</li>
+      <li>DDDDDDD</li>
+      <li>DDDDDDD</li>
+      <li>.DDDDD.</li>
+    </roof>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Animal_Workshop</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Animal</li>
+    </categories>
+    <placement>
+      <atWall>Forbidden</atWall>
+    </placement>
+
+    <legend>
+      <li><symbol>W</symbol><roof>RoofConstructed</roof></li>
+      <li><symbol>D</symbol><thing>VFEM2_CobblestoneWall_ChunkGranite</thing></li>
+      <li MayRequire="VanillaExpanded.VFEArchitect"><symbol>T</symbol><terrain>VFEArch_PlayerPackedDirt</terrain></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>B</symbol><thing>DankPyon_RusticDoor</thing><stuff>WoodLog</stuff></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>C</symbol><thing>DankPyon_DiggingSpot</thing></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>F</symbol><thing>TorchWallLamp</thing><stuff>DankPyon_Bone</stuff><rotation>West</rotation></li>
+      <li><symbol>P</symbol><thing>CraftingSpot</thing></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>R</symbol><thing>DankPyon_StonecuttingSpot</thing><stuff>WoodLog</stuff><rotation>East</rotation></li>
+      <li MayRequire="ferny.progressionagriculture"><symbol>L</symbol><thing>SeedPackingCraftingSpot</thing></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>S</symbol><thing>DankPyon_DiggingSpot</thing><rotation>South</rotation></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>G</symbol><thing>TorchWallLamp</thing><stuff>DankPyon_Bone</stuff><rotation>South</rotation></li>
+    </legend>
+
+    <mask>
+      <li>..#######..</li>
+      <li>.#########.</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>.#########.</li>
+      <li>..#######..</li>
+    </mask>
+
+    <terrain>
+      <li>.....T.....</li>
+      <li>...TTTTT...</li>
+      <li>..TTTTTTT..</li>
+      <li>.TTTTTTTTT.</li>
+      <li>.TTTTTTTTT.</li>
+      <li>TTTTTTTTTTT</li>
+      <li>.TTTTTTTTT.</li>
+      <li>.TTTTTTTTT.</li>
+      <li>..TTTTTTT..</li>
+      <li>...TTTTT...</li>
+      <li>.....T.....</li>
+    </terrain>
+
+    <things>
+      <li>..DDDBDDD..</li>
+      <li>.DDCP.P.DD.</li>
+      <li>DD.......DD</li>
+      <li>DP.......PD</li>
+      <li>DF........D</li>
+      <li>B.........B</li>
+      <li>DF........D</li>
+      <li>D........RD</li>
+      <li>DDL.....RDD</li>
+      <li>.DDSP.P.DD.</li>
+      <li>..DDDBDDD..</li>
+    </things>
+
+    <things2>
+      <li>...........</li>
+      <li>...F.......</li>
+      <li>...........</li>
+      <li>...........</li>
+      <li>...........</li>
+      <li>...........</li>
+      <li>...........</li>
+      <li>...........</li>
+      <li>...........</li>
+      <li>...G.......</li>
+      <li>...........</li>
+    </things2>
+
+    <roof>
+      <li>..WWWWWWW..</li>
+      <li>.WWWWWWWWW.</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>WWWWWWWWWWW</li>
+      <li>.WWWWWWWWW.</li>
+      <li>..WWWWWWW..</li>
+    </roof>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

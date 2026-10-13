@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Animal_Barracks</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Animal</li>
+    </categories>
+
+    <legend>
+      <li><symbol>W</symbol><roof>RoofConstructed</roof></li>
+      <li><symbol>D</symbol><thing>VFEM2_CobblestoneWall_ChunkGranite</thing></li>
+      <li MayRequire="VanillaExpanded.VFEArchitect"><symbol>T</symbol><terrain>VFEArch_PlayerPackedDirt</terrain></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>B</symbol><thing>DankPyon_RusticDoor</thing><stuff>WoodLog</stuff></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>C</symbol><thing>DankPyon_BedLog</thing><stuff>DankPyon_RawWood</stuff><rotation>East</rotation></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>F</symbol><thing>DankPyon_BedLog</thing><stuff>DankPyon_RawWood</stuff><rotation>West</rotation></li>
+      <li MayRequire="OskarPotocki.VFE.Tribals"><symbol>P</symbol><pawnKind>VFET_Wildperson</pawnKind></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>R</symbol><thing>TorchWallLamp</thing><stuff>DankPyon_Bone</stuff><rotation>West</rotation></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>L</symbol><thing>DankPyon_BedLog</thing><stuff>DankPyon_RawWood</stuff><rotation>South</rotation></li>
+      <li MayRequire="reel.expanded.storage"><symbol>S</symbol><thing>ReelNewIndustrialShelf</thing><stuff>WoodLog</stuff><rotation>West</rotation></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>G</symbol><thing>DankPyon_LogBench1x2c</thing><stuff>DankPyon_RawWood</stuff><rotation>South</rotation></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>H</symbol><thing>DankPyon_LogTable1x2c</thing><stuff>DankPyon_RawWood</stuff></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>K</symbol><thing>DankPyon_BedLog</thing><stuff>DankPyon_RawWood</stuff></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>M</symbol><thing>DankPyon_LogChair</thing><stuff>DankPyon_RawWood</stuff></li>
+      <li MayRequire="Adaptive.PrimitiveStorage,DankPyon.Medieval.Overhaul"><symbol>N</symbol><thing>ASF_WeaponRack</thing><stuff>DankPyon_Linen</stuff><rotation>West</rotation></li>
+      <li MayRequire="Adaptive.PrimitiveStorage,DankPyon.Medieval.Overhaul"><symbol>Q</symbol><thing>ASF_WeaponRack</thing><stuff>DankPyon_Linen</stuff><rotation>East</rotation></li>
+      <li MayRequire="ferny.ProgressionAmmunition"><symbol>U</symbol><thing>PA_ArrowBox</thing><stuff>WoodLog</stuff></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>V</symbol><thing>TorchWallLamp</thing><stuff>DankPyon_Bone</stuff><rotation>South</rotation></li>
+      <li><symbol>X</symbol><anchor>Loot</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_Weapon_Storage</objects><lootTable>PMM_Animal_Weapons</lootTable></li>
+      <li><symbol>Y</symbol><anchor>Loot2</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_Weapon_Storage</objects><lootTable>PMM_Animal_Weapons</lootTable></li>
+      <li><symbol>A</symbol><anchor>Loot3</anchor><anchorKind>Fill</anchorKind><objects>PMM_Animal_storage</objects><lootTable>CBF_Loot_Neu</lootTable></li>
+    </legend>
+
+    <mask>
+      <li>...#######...</li>
+      <li>..#########..</li>
+      <li>.###########.</li>
+      <li>#############</li>
+      <li>#############</li>
+      <li>#############</li>
+      <li>#############</li>
+      <li>#############</li>
+      <li>#############</li>
+      <li>#############</li>
+      <li>.###########.</li>
+      <li>..#########..</li>
+      <li>...#######...</li>
+    </mask>
+
+    <terrain>
+      <li>......T......</li>
+      <li>....TTTTT....</li>
+      <li>...TTTTTTT...</li>
+      <li>..TTTTTTTTT..</li>
+      <li>.TTTTTTTTTTT.</li>
+      <li>.TTTTTTTTTTT.</li>
+      <li>TTTTTTTTTTTTT</li>
+      <li>.TTTTTTTTTTT.</li>
+      <li>.TTTTTTTTTTT.</li>
+      <li>..TTTTTTTTT..</li>
+      <li>...TTTTTTT...</li>
+      <li>....TTTTT....</li>
+      <li>......T......</li>
+    </terrain>
+
+    <things>
+      <li>...DDDBDDD...</li>
+      <li>..DDC..FPDD..</li>
+      <li>.DDR......DD.</li>
+      <li>DD.........DD</li>
+      <li>DP..........D</li>
+      <li>DL....S....LD</li>
+      <li>B...........B</li>
+      <li>D....GHG....D</li>
+      <li>DK....M....KD</li>
+      <li>DD.........DD</li>
+      <li>.DD......UDD.</li>
+      <li>..DDNV.VQDD..</li>
+      <li>...DDDBDDD...</li>
+    </things>
+
+    <things2>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.P...........</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+    </things2>
+
+    <roof>
+      <li>...WWWWWWW...</li>
+      <li>..WWWWWWWWW..</li>
+      <li>.WWWWWWWWWWW.</li>
+      <li>WWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWW</li>
+      <li>WWWWWWWWWWWWW</li>
+      <li>.WWWWWWWWWWW.</li>
+      <li>..WWWWWWWWW..</li>
+      <li>...WWWWWWW...</li>
+    </roof>
+
+    <anchors>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>......A......</li>
+      <li>......A......</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>.............</li>
+      <li>....X...Y....</li>
+      <li>....X...Y....</li>
+      <li>.............</li>
+    </anchors>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <CustomBaseFramework.PieceDef>
+    <defName>PMM_Animal_storeblank</defName>
+    <schemaVersion>2</schemaVersion>
+    <categories>
+      <li>PMM_Animal</li>
+    </categories>
+    <template>true</template>
+    <legend>
+      <li><symbol>W</symbol><thing>VFEM2_CobblestoneWall_ChunkGranite</thing></li>
+      <li MayRequire="VanillaExpanded.VFEArchitect"><symbol>D</symbol><terrain>VFEArch_PlayerPackedDirt</terrain></li>
+      <li MayRequire="DankPyon.Medieval.Overhaul"><symbol>T</symbol><thing>DankPyon_RusticDoor</thing><stuff>WoodLog</stuff></li>
+    </legend>
+
+    <mask>
+      <li>..#######..</li>
+      <li>.#########.</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>###########</li>
+      <li>.#########.</li>
+      <li>..#######..</li>
+    </mask>
+
+    <terrain>
+      <li>.....D.....</li>
+      <li>...DDDDD...</li>
+      <li>..DDDDDDD..</li>
+      <li>.DDDDDDDDD.</li>
+      <li>.DDDDDDDDD.</li>
+      <li>DDDDDDDDDDD</li>
+      <li>.DDDDDDDDD.</li>
+      <li>.DDDDDDDDD.</li>
+      <li>..DDDDDDD..</li>
+      <li>...DDDDD...</li>
+      <li>.....D.....</li>
+    </terrain>
+
+    <things>
+      <li>..WWWTWWW..</li>
+      <li>.WW.....WW.</li>
+      <li>WW.......WW</li>
+      <li>W.........W</li>
+      <li>W.........W</li>
+      <li>T.........T</li>
+      <li>W.........W</li>
+      <li>W.........W</li>
+      <li>WW.......WW</li>
+      <li>.WW.....WW.</li>
+      <li>..WWWTWWW..</li>
+    </things>
+  </CustomBaseFramework.PieceDef>
+
+</Defs>
